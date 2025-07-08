@@ -18,7 +18,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Toggle_button()
+            //Toggle_button()
+            //SimpleScaffold()
+            SimpleLazyColumn()
+        //SimpleTopAppBar()
 
         }
     }
